@@ -1,9 +1,9 @@
 // pass the objects into a fucntion
-function createUser({ name: string, isPaid: boolean }) {}
+// function createUser({ name: string, isPaid: boolean }) {}
 
 let userId = { name: "Akshit", isPaid: true, email: "akshit@mail.com" };
 
-createUser(userId);
+// createUser(userId);
 
 // error
 // createUser({ name: "akshit", isPaid: false, email: "akshit@mail.com" });
