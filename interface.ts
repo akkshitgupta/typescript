@@ -1,4 +1,11 @@
-function greet(person: { name: string; age: number }): string {
+/*  instead use interface to define the type of the object so that it can be used in multiple places
+ */
+interface Person {
+  name: string;
+  age: number;
+}
+
+function greet(person: Person): string {
   return (
     "Hello, " +
     person.name +
